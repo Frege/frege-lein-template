@@ -1,6 +1,6 @@
-(defproject frege/lein-template "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+(defproject frege/lein-template "3.22.367-i"
+  :description "Leiningen template for Frege / Clojure projects"
+  :url "https://github.com/Frege/frege-lein-template"
+  :license {:name "BSD 3-clause"
+            :url "http://opensource.org/licenses/BSD-3-Clause"}
   :eval-in-leiningen true)
