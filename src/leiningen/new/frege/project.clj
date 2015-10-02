@@ -8,10 +8,10 @@
   ;; :license {:name "BSD 3-clause"
   ;;           :url "http://opensource.org/licenses/BSD-3-Clause"}
   :dependencies [;; Clojure runtime for mixed Clojure / Frege projects:
-                 [org.clojure/clojure "1.6.0"]
+                 [org.clojure/clojure "1.7.0"]
                  ;; need to depend on Frege for runtime:
-                 [com.theoryinpractise.frege/frege "3.22.367-g2737683"]]
-  :plugins [[lein-fregec "3.22.524"]]
+                 [org.frege-lang/frege "3.23.288-gaa3af0c"]]
+  :plugins [[lein-fregec "3.23.288"]]
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
   :frege-source-paths ["src/frege"]
