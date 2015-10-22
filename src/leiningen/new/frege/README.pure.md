@@ -8,6 +8,10 @@ Run the Frege compiler and then run the Fibonacci main function:
 
     lein fregec :run Fibonacci
 
+Run the Frege compiler and then run the tests:
+
+    lein fregec :run frege.tools.Quick -v FibonacciTest
+
 You can also package up the Frege code and its runtime:
 
     lein uberjar

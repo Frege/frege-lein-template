@@ -1,0 +1,9 @@
+module FibonacciTest where
+
+import Test.QuickCheck
+import Fibonacci
+
+fib0  = once $ fib  0 ==  0
+fib1  = once $ fib  1 ==  1
+fib2  = once $ fib  2 ==  1
+fib10 = once $ fib 10 == 55

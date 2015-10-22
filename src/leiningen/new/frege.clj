@@ -28,4 +28,5 @@
                ["LICENSE" (render "BSD" data)]
                ["README.md" (render "README.pure.md" data)]
                ["project.clj" (render "project.pure.clj" data)]
-               ["src/frege/{{sanitized}}/Fibonacci.fr" (render "Fibonacci.fr" data)]))))
+               ["src/{{sanitized}}/Fibonacci.fr" (render "Fibonacci.fr" data)]
+               ["test/{{sanitized}}/FibonacciTest.fr" (render "FibonacciTest.fr" data)]))))

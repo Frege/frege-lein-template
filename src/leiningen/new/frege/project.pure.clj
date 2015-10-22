@@ -7,6 +7,6 @@
   :dependencies [;; need to depend on Frege for runtime:
                  [org.frege-lang/frege "3.23.370-g898bc8c"]]
   :plugins [[lein-fregec "3.23.370"]]
-  :frege-source-paths ["src/frege"]
+  :frege-source-paths ["src" "test"]
   :profiles {:uberjar {:aot :all
                        :prep-tasks ["fregec" "compile"]}})
