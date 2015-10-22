@@ -22,12 +22,10 @@ You can also package up all the Clojure and Frege code and their runtimes:
 
 That produces a JAR file which you can run:
 
-    java -jar target/{{sanitized}}-0.1.0-SNAPSHOT-standalone.jar
+    java -jar target/{{name}}-0.1.0-SNAPSHOT-standalone.jar
 
 ## License
 
 Copyright (c) 2015 Your Name
 
 Distributed under the Eclipse Public License, the same as Clojure.
-or
-Distributed under the BSD 3-clause License, the same as Frege.
