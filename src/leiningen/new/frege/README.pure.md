@@ -10,7 +10,7 @@ Run the Frege compiler and then run the Fibonacci main function:
 
 Run the Frege compiler and then run the tests:
 
-    lein fregec :run frege.tools.Quick -v FibonacciTest
+    lein fregec :test -v FibonacciTest
 
 You can also package up the Frege code and its runtime:
 
