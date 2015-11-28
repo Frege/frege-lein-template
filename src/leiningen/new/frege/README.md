@@ -28,4 +28,4 @@ That produces a JAR file which you can run:
 
 Copyright (c) 2015 Your Name
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the Eclipse Public License, the same as Clojure (or the BSD 3-clause License, the same as Frege).

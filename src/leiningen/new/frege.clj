@@ -18,7 +18,8 @@
                     "."))
     (if with-clojure
       (->files data
-               ["LICENSE" (render "EPL" data)]
+               ["LICENSE-EPL" (render "EPL" data)]
+               ["LICENSE-BSD" (render "BSD" data)]
                ["README.md" (render "README.md" data)]
                ["project.clj" (render "project.clj" data)]
                ["src/clj/{{sanitized}}/core.clj" (render "core.clj" data)]
