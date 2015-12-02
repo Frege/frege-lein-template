@@ -5,8 +5,8 @@
   :license {:name "BSD 3-clause"
             :url "http://opensource.org/licenses/BSD-3-Clause"}
   :dependencies [;; need to depend on Frege for runtime:
-                 [org.frege-lang/frege "3.23.422-ga05a487"]]
-  :plugins [[lein-fregec "3.23.422"]]
+                 [org.frege-lang/frege "3.23.437-g79ae0cb"]]
+  :plugins [[lein-fregec "3.23.437"]]
   :frege-source-paths ["src" "test"]
   :profiles {:uberjar {:aot :all
                        :prep-tasks ["fregec" "compile"]}})
