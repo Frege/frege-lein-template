@@ -11,6 +11,7 @@
                  [org.clojure/clojure "1.7.0"]
                  ;; need to depend on Frege for runtime:
                  [org.frege-lang/frege "3.23.442-SNAPSHOT"]]
+  :repositories {"sonatype" "https://oss.sonatype.org/content/repositories/snapshots/"}
   :plugins [[lein-fregec "3.23.442"]]
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
