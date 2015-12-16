@@ -10,9 +10,9 @@
   :dependencies [;; Clojure runtime for mixed Clojure / Frege projects:
                  [org.clojure/clojure "1.7.0"]
                  ;; need to depend on Frege for runtime:
-                 [org.frege-lang/frege "3.23.442-SNAPSHOT"]]
+                 [org.frege-lang/frege "3.23.450-SNAPSHOT"]]
   :repositories {"sonatype" "https://oss.sonatype.org/content/repositories/snapshots/"}
-  :plugins [[lein-fregec "3.23.442"]]
+  :plugins [[lein-fregec "3.23.450"]]
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
   :frege-source-paths ["src/frege"]
