@@ -7,9 +7,15 @@ fibs a b = a : fibs b (a + b)
 -- using 0L and 1L instead of 0 and 1 ensure type is inferred as [Long]
 fibonacci = fibs 0L 1L
 
--- exposed API infers type as Long -> Long:
+-- exposed API infers type as (lazy) Long -> Long:
+-- call with (frege.run7.Thunk/lazy 42)
 -- drop takes an Int so we need to cast from Long
 fib n = head $ drop (Long.int n) $ fibonacci
+
+-- alternative eager API infers type as Long -> Long:
+-- call with 42 directly, as fib$tick
+-- drop takes an Int so we need to cast from Long
+fib' !n = head $ drop (Long.int n) $ fibonacci
 
 -- example Frege main that can be run directly:
 -- lein fregec :run Fibonacci
