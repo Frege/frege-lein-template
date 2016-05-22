@@ -14,6 +14,6 @@ This will create a folder called `myapp` containing the skeleton of a Frege proj
 
 ## License
 
-Copyright © 2015 Sean Corfield / Frege
+Copyright © 2015-2016 Sean Corfield / Frege
 
 Distributed under the BSD 3-clause License, the same as Frege itself.
