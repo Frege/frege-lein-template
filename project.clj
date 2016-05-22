@@ -1,4 +1,4 @@
-(defproject frege/lein-template "3.23.450"
+(defproject frege/lein-template "3.24-7.100"
   :description "Leiningen template for Frege / Clojure projects"
   :url "https://github.com/Frege/frege-lein-template"
   :license {:name "BSD 3-clause"
